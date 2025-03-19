@@ -16,7 +16,7 @@
     "overlap": 0.01
   },
   {
-    "name": "Untitled",
+    "name": "trainarrive",
     "file": "samples/train_arriving_mta.wav",
     "bpm": 120,
     "loop": "1m",
