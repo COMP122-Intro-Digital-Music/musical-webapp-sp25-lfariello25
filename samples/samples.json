@@ -1,0 +1,26 @@
+[
+  {
+    "name": "train brakes",
+    "file": "samples/train_brakes.wav",
+    "bpm": 120,
+    "loop": "1m",
+    "grain": "0.051",
+    "overlap": 0.01
+  },
+  {
+    "name": "what is that",
+    "file": "samples/what-is-that.wav",
+    "bpm": 120,
+    "loop": "2m",
+    "grain": 0.04,
+    "overlap": 0.01
+  },
+  {
+    "name": "Untitled",
+    "file": "samples/train_arriving_mta.wav",
+    "bpm": 120,
+    "loop": "1m",
+    "grain": 0.04,
+    "overlap": 0.01
+  }
+]
