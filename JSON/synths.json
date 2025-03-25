@@ -1,1 +1,96 @@
-[]
+[
+  {
+    "name": "bells-ish",
+    "type": "Synth",
+    "settings": {
+      "volume": 0,
+      "detune": 0,
+      "portamento": "0",
+      "envelope": {
+        "attack": "0.005",
+        "attackCurve": "ripple",
+        "decay": "0.1",
+        "decayCurve": "exponential",
+        "release": "1",
+        "releaseCurve": "ripple",
+        "sustain": "0.305"
+      },
+      "oscillator": {
+        "partialCount": 1,
+        "partials": [
+          1.2732395447351628
+        ],
+        "phase": 183.99999999999994,
+        "type": "fmsquare1",
+        "harmonicity": 4,
+        "modulationIndex": 4,
+        "modulationType": "triangle"
+      }
+    }
+  },
+  {
+    "name": "saw groove",
+    "type": "Synth",
+    "settings": {
+      "volume": 0,
+      "detune": 0,
+      "portamento": "0",
+      "envelope": {
+        "attack": "0.005",
+        "attackCurve": "linear",
+        "decay": "0.1",
+        "decayCurve": "linear",
+        "release": "1",
+        "releaseCurve": "sine",
+        "sustain": "0.3"
+      },
+      "oscillator": {
+        "partialCount": 6,
+        "partials": [
+          0.6366197723675814,
+          -0.3183098861837907,
+          0.2122065907891938,
+          -0.15915494309189535,
+          0.12732395447351627,
+          -0.1061032953945969
+        ],
+        "phase": 0,
+        "type": "fmsawtooth6",
+        "harmonicity": 1,
+        "modulationIndex": 1,
+        "modulationType": "sawtooth"
+      }
+    }
+  },
+  {
+    "name": "harmonic",
+    "type": "Synth",
+    "settings": {
+      "volume": 0,
+      "detune": 508,
+      "portamento": "0.1",
+      "envelope": {
+        "attack": "0.005",
+        "attackCurve": "linear",
+        "decay": "0.1",
+        "decayCurve": "exponential",
+        "release": "1",
+        "releaseCurve": "bounce",
+        "sustain": "0.3"
+      },
+      "oscillator": {
+        "partialCount": 4,
+        "partials": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "phase": 306,
+        "type": "fatsine4",
+        "count": 4,
+        "spread": 12
+      }
+    }
+  }
+]
